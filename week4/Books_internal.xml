@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>  
+<!DOCTYPE books [
+<!ELEMENT books (book)*>
+<!ELEMENT book (Title, Author, Genre, Copyright, Edition, Isbn, Publisher, Price)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT Copyright (#PCDATA)>
+<!ELEMENT Edition (#PCDATA)>
+<!ELEMENT Isbn (#PCDATA)>
+<!ELEMENT Publisher (#PCDATA)>
+<!ELEMENT Price (#PCDATA)> 
+]>
+
+<books> 
+	<book>
+		<title> Java Server Page </title>
+		<author> HANS BERGSTEN </author>
+		<genre> Education </genre>
+		<copyright> 2001</copyright>
+		<edition> First </edition>
+		<isbn> 9780596002312 </isbn>
+		<publisher> O'relilly </publisher>
+		<price> 2400 </price>
+ 	</book>
+ 	<book>
+		<title> The Catcher in the Rye </title>
+		<author> J. D. SALINGER </author>
+		<genre> Realistic fiction</genre>
+		<copyright> 1951 </copyright>
+		<edition> first </edition>
+		<isbn> 9780316769488 </isbn>
+		<publisher> Little, Brown and Company </publisher>
+		<price> 540 </price>
+	</book>
+	<book>
+		<title> The Alchemist </title>
+		<author> PAULO COEHLO </author>
+		<genre> Sci-fi </genre>
+		<copyright> 2020 </copyright>
+		<edition> First </edition>
+		<isbn> 978-04202010789 </isbn>
+		<publisher> HarperCollins </publisher>
+		<price> 250 </price>
+ 	</book>
+ 	<book>
+		<title> Five Go Adventuring Again</title>
+		<author> ENID BLYTON </author>
+		<genre> Mystery </genre>
+		<copyright> 1960 </copyright>
+		<edition> First </edition>
+		<isbn> 978-0446310789 </isbn>
+		<publisher>Hodder and Stoughton</publisher>
+		<price> 100 </price>
+ 	</book>
+ 	<book>
+		<title> Gone Girl </title>
+		<author> GILLIAN FLYNN </author>
+		<genre> Mystery </genre>
+		<copyright> 2012 </copyright>
+		<edition> first </edition>
+		<isbn> 9780307588371 </isbn>
+		<publisher> Crown Publishing Group </publisher>
+		<price> 974 </price>
+ 	</book>
+</books>
